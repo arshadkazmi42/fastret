@@ -1,7 +1,18 @@
-const fs = require('fs');
-const got = require('got');
-const ora = require('ora');
+const deepEqSkip = require('deep-eq-skip');
+const isObj = require('is-obj');
 
-const spinner = ora();
+const { api } = require('./lib');
 
-const TEST_DATA = require('./data.json');
+
+const fastRet = async (data) => {
+
+  // Checkes if input is a valid json
+  if (!isObj(data)) throw new Error('Invalid JSON');
+
+  // Processing api data from json
+  const response = await api(data);
+  return deepEqSkip(response, data.response, data.skip_keys);
+};
+
+
+module.exports = fastRet;
