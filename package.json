@@ -1,7 +1,7 @@
 {
   "name": "fastret",
   "version": "1.0.0",
-  "description": "Auto generator tests for your rest API",
+  "description": "Fastest REST Api tester",
   "main": "index.js",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
@@ -12,6 +12,14 @@
     "type": "git",
     "url": "git+https://github.com/arshadkazmi42/fastret.git"
   },
+  "keywords": [
+    "fastret",
+    "fast-rest-test",
+    "fastest-rest-test",
+    "restapi",
+    "api-test",
+    "tdd"
+  ],
   "author": "Arshad Kazmi",
   "license": "MIT",
   "bugs": {
