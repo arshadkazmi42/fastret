@@ -47,3 +47,9 @@ Read our contributing [guide](CONTRIBUTING.md) on getting started with contribut
 Thank you to all the contributors who have helped us in making this project better :raised_hands:
 
 <a href="https://github.com/arshadkazmi42"><img src="https://github.com/arshadkazmi42.png" width="30" /></a>
+
+## Libraries
+
+List of libraries using `fastret`
+
+ - [FastRet Framework](http://github.com/arshadkazmi42/fastret-framework)
