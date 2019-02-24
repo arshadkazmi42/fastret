@@ -31,6 +31,21 @@ const POST_API = {
   }
 };
 
+const INVALID_API = {
+  'url': 'https://jsonplaceholder.typicode.com/todos1/2',
+  'headers': {},
+  'body': {
+    'title': 'Test title',
+    'body': 'Test post api body'
+  },
+  'method': 'POST',
+  'skip_keys': ['id'],
+  'response': {
+    'title': 'Test title',
+    'body': 'Test post api body'
+  }
+};
+
 describe('GET APIs', () => {
   it('should match response with expected', async () => {
     const isPassed = await fastRet(GET_API);
@@ -40,6 +55,11 @@ describe('GET APIs', () => {
     GET_API.skip_keys = [];
     const isPassed = await fastRet(GET_API);
     expect(isPassed).to.equal(false);
+  });
+  it('should throw an invalid api error', async () => {
+    fastRet(INVALID_API).catch((err) => {
+      expect(err.message).to.equal('404 - {}');
+    });
   });
 });
 
