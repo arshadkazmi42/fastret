@@ -4,7 +4,7 @@ const isObj = require('is-obj');
 const { api } = require('./lib');
 
 
-const fastRet = async (data) => {
+const fastRet = async function(data) {
 
   // Checkes if input is a valid json
   if (!isObj(data)) throw new Error('Invalid JSON');
