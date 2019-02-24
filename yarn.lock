@@ -396,10 +396,10 @@ decode-uri-component@^0.2.0:
   resolved "https://registry.yarnpkg.com/decode-uri-component/-/decode-uri-component-0.2.0.tgz#eb3913333458775cb84cd1a1fae062106bb87545"
   integrity sha1-6zkTMzRYd1y4TNGh+uBiEGu4dUU=
 
-deep-eq-skip@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/deep-eq-skip/-/deep-eq-skip-1.0.1.tgz#8976a4fe6d04b2ebe96e8ca6dafdc7874a9b423a"
-  integrity sha512-mCsMcJhTLdwue4ykpuCXm70pwMfHqtFyGvjK+la5BJmWYi1YTnmGhuY+DbPJB9DPMXT04WkyNUctDdz9bKHOSg==
+deep-eq-skip@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/deep-eq-skip/-/deep-eq-skip-1.0.2.tgz#764dd4078fc4a355714c1d00e77d199d409f6f2f"
+  integrity sha512-G9tAm4q8JrpbIbphyUSEsWVlYe2j8OEvNzJ+RdBy1HPOJz1I/KhgErqSTlgoKifgAvwOXwrE3PWnig/4apJqvQ==
   dependencies:
     is-obj "^1.0.1"
 
