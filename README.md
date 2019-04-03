@@ -53,3 +53,4 @@ Thank you to all the contributors who have helped us in making this project bett
 List of libraries using `fastret`
 
  - [FastRet Framework](http://github.com/arshadkazmi42/fastret-framework)
+ - [FastRet CLI](https://github.com/arshadkazmi42/fastret-cli)
