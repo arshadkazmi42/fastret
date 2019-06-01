@@ -1,6 +1,12 @@
 # fastret
 
 [![Build Status](https://travis-ci.com/arshadkazmi42/fastret.svg?branch=master)](https://travis-ci.com/arshadkazmi42/fastret)
+[![Github Repo Size](https://img.shields.io/github/repo-size/arshadkazmi42/fastret.svg)](https://github.com/arshadkazmi42/fastret)
+[![LICENSE](https://img.shields.io/npm/l/fastret.svg)](https://github.com/arshadkazmi42/fastret/LICENSE)
+[![NPM Downloads](https://img.shields.io/npm/dt/fastret.svg)](https://www.npmjs.com/package/fastret)
+[![NPM Version](https://img.shields.io/npm/v/fastret.svg)](https://www.npmjs.com/package/fastret)
+[![Contributors](https://img.shields.io/github/contributors/arshadkazmi42/fastret.svg)](https://github.com/arshadkazmi42/fastret/graphs/contributors)
+[![Commit](https://img.shields.io/github/last-commit/arshadkazmi42/fastret.svg)](https://github.com/arshadkazmi42/fastret/commits/master)
 
 Fastret helps you to test your REST api quickly, just by passing api details as json
 
